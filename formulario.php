@@ -15,7 +15,7 @@
 </select>
 
 	<p><textarea rows="4" cols="50" name="conteudo">
-<?php $learquivo = file_get_contents("meuarquivo.txt"); echo $learquivo; ?>
+<?php $learquivo = file_get_contents("meuarquivo"); echo $learquivo; ?>
 
 </textarea>
 <p><input type="submit" value="Enviar comando">

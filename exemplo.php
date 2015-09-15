@@ -8,7 +8,7 @@ $app = $_POST['funcao'];
 	$criarpagina = new criarpagina; /* A função de usar classes e objetos ao invés de variáveis estruturais
 	tem mais a ver com didática e organização do código*/
 
-	$criarpagina->pagina = $_POST['pagina'];
+	$criarpagina->pagina = $_POST['pagina'] . ".txt"; // Sempre concatene para evitar acesso indevido a outros arquivos
 	$criarpagina->conteudo = base64_encode($_POST['conteudo']);
 	//$criarpagina->arquivoalvo = ';
 	$criarpagina->$app();

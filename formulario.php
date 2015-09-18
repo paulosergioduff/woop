@@ -1,7 +1,7 @@
 <form action="exemplo.php" method="POST">
 
 	<select name="pagina">
-		<option value"meuarquivo.txt">meuarquivo.txt</option>
+		<option value"meuarquivo">meuarquivo</option>
 	</select><br>
 
 <select name="funcao">

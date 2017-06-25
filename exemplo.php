@@ -3,6 +3,8 @@
 include "criarpagina.class.php";
 include "formulario.php";
 
+// minhas alterações no código
+
 $app = $_POST['funcao'];
 
 	$criarpagina = new criarpagina; /* A função de usar classes e objetos ao invés de variáveis estruturais

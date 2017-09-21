@@ -15,5 +15,5 @@ $app = 'Update';
 	echo "<p>Resultado:<br>"; include "meuarquivo.txt";
 	//$criarpagina->imprimeXML();
     
-//novidade
+//novidade 2017
 ?>

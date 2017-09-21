@@ -14,5 +14,6 @@ $app = 'Update';
 	$criarpagina->$app();
 	echo "<p>Resultado:<br>"; include "meuarquivo.txt";
 	//$criarpagina->imprimeXML();
-
-?> 
+    
+//novidade
+?>

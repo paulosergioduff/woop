@@ -15,5 +15,6 @@ $app = $_POST['funcao'];
 	//$criarpagina->arquivoalvo = ';
 	$criarpagina->$app();
 	//$criarpagina->imprimeXML();
+    
 
-?> 
+?>

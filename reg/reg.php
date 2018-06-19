@@ -1,1 +1,1 @@
-<option value='Novo banco'>Novo banco</option><option value='cliente001'>cliente001</option><option value='cliente002'>cliente002</option>
+<option value='Novo banco'>Novo banco</option><option value='cliente001'>cliente001</option><option value='cliente002'>cliente002</option><option value='usuarios'>usuarios</option>

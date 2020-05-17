@@ -3,6 +3,8 @@
 include "criarpagina.class.php";
 include "formulario.php";
 
+// minhas alterações no código
+
 $app = $_POST['funcao'];
 
 	$criarpagina = new criarpagina; /* A função de usar classes e objetos ao invés de variáveis estruturais
@@ -11,7 +13,8 @@ $app = $_POST['funcao'];
 	$criarpagina->pagina = $_POST['pagina'] . ".txt"; // Sempre concatene para evitar acesso indevido a outros arquivos
 	$criarpagina->conteudo = $_POST['conteudo'];//orinalmente base64_encode($_POST['conteudo']);
 	//$criarpagina->arquivoalvo = ';
-	$criarpagina->$app();
+	$criarpagina->update();
 	//$criarpagina->imprimeXML();
+    
 
-?> 
+?>

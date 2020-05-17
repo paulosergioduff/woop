@@ -1,8 +1,14 @@
-<form action="exemplo.php" method="POST">
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+</head>
+<body>
 
-	<select name="pagina">
-		<option value"meuarquivo">meuarquivo</option>
-	</select><br>
+<form action="save.php" method="POST">
+
+	Título:<input type="text" name="pagina" value="Meu arquivo para teste"><p>
 
 <select name="funcao">
 
@@ -15,9 +21,9 @@
 </select>
 
 	<p><textarea rows="4" cols="50" name="conteudo">
-<?php $learquivo = file_get_contents("meuarquivo"); echo $learquivo; ?>
+
 
 </textarea>
 <p><input type="submit" value="Enviar comando">
 </form>
-<p>Resultado 2017:<br>
+<p>Resultado:<br>
